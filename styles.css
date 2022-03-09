@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 body {
@@ -42,7 +43,7 @@ img {
     display: inline-block;
 }
 
-table, td {
+table.body, td.b {
     border: 1px solid #fff;
     border-collapse: collapse;
     width: 80%;
@@ -55,4 +56,37 @@ td {
     font-family: sans-serif;
     font-size: 15px;
     padding: 5px;
+}
+
+.bio {
+    width: 60%;
+    border-collapse: collapse;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+p {
+    color: #fff;
+    width: 90%;
+    font-size: 15px;
+    word-wrap: break-word;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-bottom: 10px;
+}
+
+.social {
+    margin-top: 3%;
+    margin-left: 5%;
+    padding-bottom: 20px;
+}
+
+.t-social {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-style: italic;
 }
